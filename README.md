@@ -41,32 +41,56 @@ Bu proje, ilaç kullanıcılarının potansiyel etkileşim ve yan etkileri önce
 ### 📦 Sprint 1 Backlog (User Story'ler)
 
 
-| ID   | Görev / User Story                                | Öncelik | Durum           | Notlar                                                 |
-| ---- | ------------------------------------------------- |-------- | ----------------|--------------------------------------------------------|
-| US01 | Giriş ekranı ve proje tanıtımı arayüzü            | Yüksek  | ✅ Tamamlandı   |                                                        |
-| US02 | İlaç girişi alanı ve dinamik form yapısı          | Yüksek  | ✅ Tamamlandı   |                                                        |
-| US03 | Semptom girişi alanı ve veri işleme hazırlığı     | Orta    | ✅ Tamamlandı   |                                                        |
-| US04 | UI renk paleti, yazı tipi ve tasarım dili rehberi | Orta    | ✅ Tamamlandı   |                                                        |
-| US05 | Gemini API mock veri sistemi kurulumu             | Yüksek  | 🟡 Devam Ediyor | Mock veri denendi, gerçek API entegrasyonu planlanıyor |
-| US06 | Kullanıcı veri girişinin backend’e gönderilmesi   | Yüksek  | 🟠 Planlandı    | Backend geliştirme sonrası                             |
-| US07 | Yapay zeka sonuçlarının frontend’de gösterilmesi  | Yüksek  | 🟠 Planlandı    | API entegrasyonu sonrası                               |
-| US08 | Testlerin yazılması ve QA                         | Orta    | 🟠 Planlandı    | Sprint 2’ye bırakıldı                                  |
-
-
----
-
-### ✅ Tamamlanan Görevler
-
-- **Giriş Sayfası**: Açıklayıcı metin ve yönlendirici bir başlıkla sade ve profesyonel tasarım oluşturuldu.
-- **İlaç Giriş Formu**: Kullanıcılar, dilediği kadar ilaç ekleyebiliyor; her alan dinamik ve silinebilir yapıdadır.
-- **Semptom Alanı**: Serbest metin girişine olanak tanıyan kullanıcı dostu input alanı hazırlandı.
-- **Stil Rehberi**: Renk paleti (mavi tonları), yazı tipleri, buton stilleri ve boşluk kuralları netleştirildi.
-- **Mock API**: Yapay zekadan dönecek veriler örnek olarak JSON formatında simüle edildi.
-- **Ana Sayfa Tasarımı**: Hero bölümü, etkileşim kontrolü ve semptom analizi tanıtım blokları eklendi.
-- **Navigasyon**: Navbar ve ilgili sayfalara yönlendirmeler tamamlandı.
-- **Buton Yönlendirmeleri**: Ana sayfadaki "Kontrol Et" ve "Analiz Et" butonları ilgili sayfalara düzgün yönlendirildi.
+| ID   | Görev / User Story                                | Öncelik | Tahmini Puan (Story Point) | Durum           | Notlar                                                 |
+|------|---------------------------------------------------|---------|-----------------------------|------------------|--------------------------------------------------------|
+| US01 | Giriş ekranı ve proje tanıtımı arayüzü            | Yüksek  | 3 SP                        | ✅ Tamamlandı    |                                                        |
+| US02 | İlaç girişi alanı ve dinamik form yapısı          | Yüksek  | 5 SP                        | ✅ Tamamlandı    |                                                        |
+| US03 | Semptom girişi alanı ve veri işleme hazırlığı     | Orta    | 3 SP                        | ✅ Tamamlandı    |                                                        |
+| US04 | UI renk paleti, yazı tipi ve tasarım dili rehberi | Orta    | 2 SP                        | ✅ Tamamlandı    |                                                        |
+| US05 | Gemini API mock veri sistemi kurulumu             | Yüksek  | 5 SP                        | 🟡 Devam Ediyor | Mock veri denendi, gerçek API entegrasyonu planlanıyor |
+| US06 | Kullanıcı veri girişinin backend’e gönderilmesi   | Yüksek  | 5 SP                        | 🟠 Planlandı     | Backend geliştirme sonrası                             |
+| US07 | Yapay zeka sonuçlarının frontend’de gösterilmesi  | Yüksek  | 5 SP                        | 🟠 Planlandı     | API entegrasyonu sonrası                               |
+| US08 | Testlerin yazılması ve QA                         | Orta    | 3 SP                        | 🟠 Planlandı     | Sprint 2’ye bırakıldı                                  |
 
 ---
+
+## 🔄 Sprint Retrospective
+
+- **İyi Gidenler**:
+  - Ekip içi iletişim güçlüydü, tüm görevler zamanında tamamlandı.
+  - Tasarım uyumluluğu ve renk bütünlüğü başarılı oldu.
+- **Geliştirilecekler**:
+  - Backend tarafında gerçek API entegrasyonu eksik kaldı.
+  - UI testleri için otomasyon eklenmesi sonraki sprintte planlanmalı.
+ 
+---
+
+### 🔁 Sprint Review
+
+- ✅ **Tamamlanan Görevler**:
+  - Giriş Sayfası: Açıklayıcı metin ve yönlendirici bir başlıkla sade ve profesyonel tasarım oluşturuldu.
+  - İlaç Giriş Formu: Kullanıcılar, dilediği kadar ilaç ekleyebiliyor; her alan dinamik ve silinebilir yapıdadır.
+  - Semptom Alanı: Serbest metin girişine olanak tanıyan kullanıcı dostu input alanı hazırlandı.
+  - Stil Rehberi: Renk paleti (mavi tonları), yazı tipleri, buton stilleri ve boşluk kuralları netleştirildi.
+  - Mock API: Yapay zekadan dönecek veriler örnek olarak JSON formatında simüle edildi.
+  - Ana Sayfa Tasarımı: Hero bölümü, etkileşim kontrolü ve semptom analizi tanıtım blokları eklendi.
+  - Navigasyon: Navbar ve ilgili sayfalara yönlendirmeler tamamlandı.
+  - Buton Yönlendirmeleri: Ana sayfadaki "Kontrol Et" ve "Analiz Et" butonları ilgili sayfalara düzgün yönlendirildi.
+
+- 🔍 **Eğitmen Geri Bildirimi**:  
+  - Sprint board'da user story'lere puanlama yapılması gerektiği belirtildi.  
+  - Daily Scrum toplantılarının ekran görüntüleri ve düzenli takibi eksikti.  
+  - Sprint Review ve Retrospective bölümlerinin yazılı olarak belirtilmesi istendi.
+
+- ✅ **Yapılan Güncellemeler**:  
+  - Tüm user story'lere puanlama eklendi.  
+  - Günlük Scrum toplantısına ait ekran görüntüsü eklendi.
+  - Diğer görseller henüz paylaşılmadığı için raporda sadece 1 adet görsel kullanılmıştır.
+  - Review ve Retrospective bölümleri detaylı şekilde rapora eklendi.
+
+- 📌 **Sonuç**:  
+  -Sprint hedefleri büyük ölçüde gerçekleştirildi. Eğitmen geri bildirimi doğrultusunda eksikler tamamlanarak sprint raporu güncellendi ve değerlendirme kriterlerine uygun hale getirildi.
+
 
 ### 🖥️ Arayüz Görselleri
 
@@ -83,6 +107,21 @@ Aşağıda proje yönetiminde kullandığımız Trello board ekran görüntüsü
 
 ![Ekran görüntüsü 2025-07-06 212006](https://github.com/user-attachments/assets/d69861e7-76d0-4e43-afdd-868ee5aa13f8)
 
+---
+
+## 📸 Daily Scrum Ekran Görüntüleri
+
+### Google Meet Daily (05 Temmuz 2025)
+
+![aa](https://github.com/user-attachments/assets/38894400-4778-465b-b951-3490e627499f)
+
+---
+
+## 💬 Fikir Geliştirme Süreci
+
+İlk fikirlerin paylaşıldığı ve proje kararının alındığı WhatsApp ekran görüntüsü:
+
+![bb](https://github.com/user-attachments/assets/c760117f-0555-4828-98d9-2bb309c6a4f9)
 
 ---
 
