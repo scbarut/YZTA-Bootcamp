@@ -130,3 +130,79 @@ Aşağıda proje yönetiminde kullandığımız Trello board ekran görüntüsü
 - Projede Tailwind CSS kullanılmamış, sadece React ve modüler CSS ile sade ve profesyonel bir ön yüz tasarımı yapılmıştır.
 - Backend API ve gerçek yapay zeka entegrasyonu ilerleyen sprintlerde tamamlanacaktır.
 - Kullanıcı deneyimi ve erişilebilirlik sürekli geliştirilmektedir.
+
+
+## 🚀 Sprint 2 – Sayfa Ayrıştırma, Mobil Uyum ve LLM Entegrasyon Başlangıcı
+
+---
+
+### 📅 Sprint Bilgileri
+
+- **Sprint Tarihi**: 7 Temmuz 2025 – 20 Temmuz 2025  
+- **Sprint Adı**: Çoklu Sayfa Yapısı ve LLM Entegrasyon Hazırlığı  
+- **Sprint Hedefi**:  
+  “Etkileşim Kontrolü” ve “Semptom Analizi” için ayrı sayfalar tasarlanması, mobil uyumun sağlanması ve LLM (Gemini) entegrasyonuna başlanması.
+
+
+
+### 📦 Sprint 2 Backlog (User Story’ler)
+
+| ID   | Görev / User Story                                       | Öncelik | SP  | Durum        | Notlar                                    |
+|------|----------------------------------------------------------|---------|-----|--------------|-------------------------------------------|
+| US09 | Semptom Analizi için ayrı sayfa ve veri toplama          | Yüksek  | 5 SP| ✅ Tamamlandı | Serbest metin alanı eklendi.              |
+| US10 | Mobil uyumlu (responsive) arayüz tasarımı                | Yüksek  | 3 SP| ✅ Tamamlandı | CSS grid/flex yapısı ile optimize edildi. |
+| US11 | LLM entegrasyon hazırlığı (endpoint ve mock yapısı)      | Yüksek  | 5 SP| 🟡 Devam Ediyor | Gemini için veri formatı belirlendi.     |
+
+---
+
+## 🔄 Sprint Retrospective
+
+- **İyi Gidenler**  
+  ✅ Sayfa ayrımı ile kullanıcı deneyimi gelişti.  
+  ✅ Mobil uyum sağlandı, farklı cihazlarda test edildi.  
+  ✅ Context yapısı ile veriler düzenli yönetildi.
+
+- **Geliştirilecekler**  
+  🔧 LLM entegrasyonu için otomasyon ve testler artırılmalı.  
+  🔧 API entegrasyonu öncesi edge-case senaryoları planlanmalı.
+
+---
+
+### 🔁 Sprint Review
+
+- ✅ **Tamamlananlar**  
+  - Etkileşim Kontrolü ve Semptom Analizi sayfaları hazırlandı ve yönlendirmeler yapıldı.  
+  - Mobil uyumlu arayüz tamamlandı.  
+  - Context API ile veri yönetimi düzenlendi.  
+  - LLM entegrasyonu için mock veri hazırlıkları başlatıldı.
+
+- 🔍 **Eğitmen Geri Bildirimi**  
+  - Sayfa ayrımı ve responsive yapı başarılı.  
+  - LLM entegrasyon sürecinin daha detaylı belgelenmesi önerildi.
+
+- 📌 **Sonuç**  
+  - Sprint hedefleri başarıyla tamamlandı, LLM entegrasyonuna geçiş için temel atıldı.
+
+---
+
+### 🖥️ Yeni Arayüz Görselleri
+
+<img width="1900" height="943" alt="Ekran görüntüsü 2025-07-19 195531" src="https://github.com/user-attachments/assets/08b03ceb-181c-42e5-9fe4-85d614c25fdc" />
+<img width="1902" height="948" alt="Ekran görüntüsü 2025-07-19 195541" src="https://github.com/user-attachments/assets/35db7735-3ebd-4c03-8eed-9d0c498bdb0b" />
+<img width="1902" height="944" alt="Ekran görüntüsü 2025-07-19 195550" src="https://github.com/user-attachments/assets/3598a92f-df08-4221-be54-a79ad19746fe" />
+
+
+---
+
+### 📋 Trello Board (Güncellenmiş)
+
+<img width="1604" height="839" alt="image" src="https://github.com/user-attachments/assets/656583f6-4b86-4db9-a14b-3a87087db3f9" />
+
+---
+
+
+### 📌 Notlar
+
+- React Router ile sayfa geçişleri düzenlendi.  
+- Responsive tasarım sayesinde mobil uyum sağlandı.  
+- LLM entegrasyonu için mock’tan gerçek endpoint aşamasına geçiş hazırlandı.
